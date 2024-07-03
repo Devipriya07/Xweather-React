@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body #root {
+  height: 100%;
+  width: 100%;
+  background: #F0F8FF;
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.weather-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  background-color: #fff;
+}
+input{
+  height: 35px;
+  width: 15em
+}
+button{
+   height: 35px;
+    width: 80px
+}
+
